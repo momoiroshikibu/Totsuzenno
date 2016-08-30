@@ -5,3 +5,6 @@
 ＞　よくあるやつ！　＜
 ￣Y^Y^Y^Y^Y^Y^Y^Y￣
 ```
+
+![](./totsuzenno.gif)
+
