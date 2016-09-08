@@ -11,9 +11,11 @@
   (let* ((middle-inner (format "　%s　" word))
          (middle-inner-length (length middle-inner))
          (up-inner (string-repeat "人" middle-inner-length))
-         (down-inner (string-repeat "Y^" middle-inner-length)))
-    (message "
+         (down-inner (string-repeat "Y^" middle-inner-length))
+         (output (format "
 ＿%s＿
 ＞%s＜
 ￣%s￣
 " up-inner middle-inner down-inner)))
+    (message output)
+    (kill-new output)))
