@@ -1,4 +1,10 @@
 (defun totsuzenno (word)
+  "
+＿人人人人人＿
+＞　突然の　＜
+￣Y^Y^Y^Y^Y^￣
+"
+
   (interactive "s突然の？: ")
 
   (defun string-repeat (s times)
